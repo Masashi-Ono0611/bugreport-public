@@ -1,10 +1,5 @@
 # Omniston TONCO resolver custom destination issue 
 
-## Title 
-Omniston `buildTransfer` fails with Internal server error when using TONCO resolver and custom destination/gasExcess address.
-
----
-
 ## Summary
 
 When using Omniston SDK **with the TONCO resolver** (this resolver is currently mostly chosen by Omniston for TON → tsTON swap), `buildTransfer` fails with an internal server error **only** if I set `destinationAddress` and `gasExcessAddress` to a **custom address** instead of the user wallet.
